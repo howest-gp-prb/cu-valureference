@@ -1,0 +1,23 @@
+﻿<Window x:Class="Prb.ValueReference.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prb.ValueReference.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="920">
+    <Grid>
+        <Button x:Name="btnCopyValueType" Content="Copy value type" HorizontalAlignment="Left" Height="61" Margin="10,10,0,0" VerticalAlignment="Top" Width="162" Click="btnCopyValueType_Click"/>
+        <Button x:Name="btnCopyValueTypeEnum" Content="Copy value type enum" HorizontalAlignment="Left" Height="63" Margin="10,76,0,0" VerticalAlignment="Top" Width="162" Click="btnCopyValueTypeEnum_Click"/>
+        <Button x:Name="btnCopyValueTypeStruct" Content="Copy value type struct" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Height="61" Width="162" Click="btnCopyValueTypeStruct_Click"/>
+        <Button x:Name="btnCopyReferenceType" Content="Copy reference type" HorizontalAlignment="Left" Height="61" Margin="243,10,0,0" VerticalAlignment="Top" Width="199" Click="btnCopyReferenceType_Click"/>
+        <Button x:Name="btnCopyReferenceTypeString" Content="Copy reference type string" HorizontalAlignment="Left" Height="63" Margin="243,76,0,0" VerticalAlignment="Top" Width="199" Click="btnCopyReferenceTypeString_Click"/>
+        <Button x:Name="btnPassValueType" Content="Pass value type" HorizontalAlignment="Left" Height="62" Margin="243,217,0,0" VerticalAlignment="Top" Width="199" Click="btnPassValueType_Click"/>
+        <Button x:Name="btnPassValueTypeByRef" Content="Pass value type by reference" HorizontalAlignment="Left" Height="59" Margin="243,284,0,0" VerticalAlignment="Top" Width="199" Click="btnPassValueTypeByRef_Click"/>
+        <Button x:Name="btnOutputParameter"  Content="Output parameter" HorizontalAlignment="Left" Height="62" Margin="473,217,0,0" VerticalAlignment="Top" Width="197" Click="btnOutputParameter_Click"/>
+        <Button x:Name="btnBoxing" Content="Boxing" HorizontalAlignment="Left" Height="65" Margin="473,343,0,0" VerticalAlignment="Top" Width="197" Click="btnBoxing_Click"/>
+        <Button x:Name="btnUnboxing" Content="Unboxing" HorizontalAlignment="Left" Height="65" Margin="473,413,0,0" VerticalAlignment="Top" Width="197" Click="btnUnboxing_Click"/>
+        <Button x:Name="btnSafeCasting" Content="Safe casting" HorizontalAlignment="Left" Height="65" Margin="698,490,0,0" VerticalAlignment="Top" Width="197" Click="btnSafeCasting_Click"/>
+
+    </Grid>
+</Window>
